@@ -1,0 +1,9 @@
+@function color($color-name){
+    @return var(--color-#{$color-name});
+}
+@function fontweight($fontweight){
+    @return var(--fontweight-#{$fontweight});
+}
+@function backgroundcolor($background-color){
+    @return var(--backgroundimage-#{$background-color});
+}
